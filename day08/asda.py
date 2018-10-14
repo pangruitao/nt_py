@@ -72,12 +72,13 @@ print('+' + '-'*(zuida+12) + '+' + '-'*8 + '+' + '-'*8 + '+')
 
 for D in L:
     j=0
-    D['age']=int(D['age'])
-    D['score'] = str(D['score'])
+    # kage=str(D['age'])
+    # kscore = str(D['score'])
     for i in D['name']:
         if ord(i)>128:
             j+=1
     print('|'+D['name'].center(zuida+12-j)+'|'+D['age'].center(8)+'|'+D['score'].center(8)+'|')
+    # print('|'+D['name'].center(zuida+12-j)+'|'+kage.center(8)+'|'+kscore.center(8)+'|')
 print('+' + '-'*(zuida+12) + '+' + '-'*8 + '+' + '-'*8 + '+')
 
 
