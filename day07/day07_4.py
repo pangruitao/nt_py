@@ -1,7 +1,8 @@
 
 L=[]
-T={}
+# T={}
 while True:
+    T={}
     n = str(input('请输入姓名:'))
     if n == '':
         print('结束输入.')
