@@ -19,9 +19,10 @@ while True:
         zuida=len(n)
     a = str(input('请输入年龄:'))
     s = str(input('请输入成绩:'))
-    T['name']=n
-    T['age']=a
-    T['score']=s
+    # T['name']=n
+    # T['age']=a
+    # T['score']=s
+    T = dict(name=n,age=a,score=s)
     L.append(T)
 print(L)
 print('+' + '-'*(zuida+12) + '+' + '-'*8 + '+' + '-'*8 + '+')
